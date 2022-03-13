@@ -1,7 +1,6 @@
 import * as React from "react";
 import { Routes, Route, Link } from "react-router-dom";
 import "./App.css";
-
 import Pokemons from "./pages/Pokemons/Pokemons";
 import PokemonId from "./pages/Pokemons/PokemonId";
 import PokemonsCart from "./pages/Pokemons/PokemonsCart";
@@ -20,7 +19,7 @@ function App() {
       <header class="center">
         <center>
           <div class="profile-picture">
-            <img src="https://imgur.com/eZ24gj6.png" /> {/* pokemon logo */}
+            <img src="https://imgur.com/eZ24gj6.png" alt="pokemon"/> {/* pokemon logo */}
           </div>
           <br/>
           <hr /> 
