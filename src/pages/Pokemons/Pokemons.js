@@ -22,9 +22,8 @@ function Pokemons() {
           return {
             id: payloadDetail?.data?.name || "",
             name: payloadDetail?.data?.name || "",
-            img:
-              payloadDetail?.data?.sprites.other.dream_world.front_default ||
-              "",
+            img: payloadDetail?.data?.sprites.other.dream_world.front_default ||"",
+            
           };
         }
       );
@@ -62,6 +61,12 @@ function Pokemons() {
               <p key={item.id} style={{ color: "white" }}>
                 {item?.name}
               </p>
+
+              <p key={item.move} >
+                {/* {console.log({item?.move})}   */}
+                
+              </p>
+
               <button
                 onClick={(e) => {
                   e.preventDefault();
