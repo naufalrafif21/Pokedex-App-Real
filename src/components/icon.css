@@ -1,0 +1,15 @@
+.icon {
+    background-color: #ffffff;
+}
+
+.icon-logo {
+    font-family: 'Fredoka', sans-serif;
+    font-size: xx-large;
+}
+
+.icon-menu {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

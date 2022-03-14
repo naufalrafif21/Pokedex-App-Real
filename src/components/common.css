@@ -1,0 +1,24 @@
+nav {
+    background-color: #ff0000;
+}
+
+body {
+    margin: 0;
+}
+
+html {
+    background-color: #fafafa;
+    font-family: 'Fredoka';
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    padding: .5em;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+}
